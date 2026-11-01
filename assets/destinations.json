@@ -1,0 +1,72 @@
+[
+  {
+    "id": "coc-sam",
+    "name": "Đồi cỏ may Cốc Sâm",
+    "type": "nature",
+    "tag": "Đồi cỏ",
+    "lat": 22.4943125,
+    "lng": 104.2269375,
+    "desc": "Triền cỏ xanh và hàng thông; xem thêm bài giới thiệu Cốc Sâm.",
+    "query": "22.4943125,104.2269375"
+  },
+  {
+    "id": "cong-troi",
+    "name": "Cổng Trời Bắc Hà",
+    "type": "nature",
+    "tag": "Ngắm cảnh",
+    "lat": 22.4980821,
+    "lng": 104.2762667,
+    "desc": "Một điểm dừng ngắm cảnh trong hành trình phía nam Bắc Hà.",
+    "query": "22.4980821,104.2762667"
+  },
+  {
+    "id": "ngai-thau",
+    "name": "Ngai Thau Sunset View",
+    "type": "nature",
+    "tag": "Ngắm hoàng hôn",
+    "lat": 22.5219834,
+    "lng": 104.2702584,
+    "desc": "Thêm một điểm ngắm cảnh cho khoảng chiều thong thả.",
+    "query": "22.5219834,104.2702584"
+  },
+  {
+    "id": "green",
+    "name": "Bắc Hà Green homestay – coffee & tea",
+    "type": "stay",
+    "tag": "Nghỉ chân",
+    "lat": 22.5511875,
+    "lng": 104.3013125,
+    "desc": "Điểm nghỉ chân được bạn cung cấp. Hỏi cơ sở về phòng và dịch vụ trước khi đến.",
+    "query": "BẮC HÀ GREEN homestay coffee tea H822+FGR Bắc Hà Lào Cai"
+  },
+  {
+    "id": "thac",
+    "name": "Thác Hoàng Thu Phố",
+    "type": "nature",
+    "tag": "Thác nước",
+    "lat": 22.5644918,
+    "lng": 104.2627229,
+    "desc": "Điểm thiên nhiên để bổ sung vào hành trình phía bắc trung tâm.",
+    "query": "22.5644918,104.2627229"
+  },
+  {
+    "id": "den",
+    "name": "Đền Trung Đô",
+    "type": "culture",
+    "tag": "Văn hóa",
+    "lat": 22.4525494,
+    "lng": 104.2468791,
+    "desc": "Điểm dừng văn hóa tại khu vực Bảo Nhai. Giữ trang phục và ứng xử phù hợp khi tham quan.",
+    "query": "22.4525494,104.2468791"
+  },
+  {
+    "id": "hang",
+    "name": "Hang Tiên Bảo Nhai",
+    "type": "nature",
+    "tag": "Hang động",
+    "lat": 22.4756493,
+    "lng": 104.2087089,
+    "desc": "Điểm khám phá ở khu vực Bảo Nhai. Xác nhận cách tiếp cận và điều kiện tham quan tại địa phương.",
+    "query": "22.4756493,104.2087089"
+  }
+]
