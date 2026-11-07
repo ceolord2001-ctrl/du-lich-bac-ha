@@ -1,0 +1,30 @@
+:root{--paper:#faf8f1;--ink:#22392c;--green:#254c39;--orange:#a45636}
+.resort-header{padding:16px clamp(18px,5vw,84px);gap:18px;background:var(--paper);min-height:76px}
+.resort-brand{display:flex;flex-direction:column;line-height:1.05;flex-shrink:0}
+.resort-brand span{font:600 30px Georgia,serif;letter-spacing:-.035em}
+.resort-brand small{font-size:8px;letter-spacing:.23em;margin-top:6px}
+.resort-header nav{gap:clamp(12px,2.4vw,36px);font-size:13px;flex-wrap:wrap}
+.resort-header nav a:hover,.resort-light-link:hover{text-decoration:underline;text-underline-offset:5px}
+.resort-header-cta{font-size:12px;white-space:nowrap}
+.resort-hero{position:relative;isolation:isolate;display:flex;align-items:center;min-height:clamp(530px,74vh,780px);overflow:hidden;padding:70px clamp(22px,8vw,130px) 105px;background:#294635;color:#fffdf1}
+.resort-hero>img,.resort-hero::after{position:absolute;inset:0;width:100%;height:100%;z-index:-1}
+.resort-hero>img{object-fit:cover;object-position:center 37%}
+.resort-hero::after{content:'';background:linear-gradient(90deg,#142a1de8 0%,#1b3527b8 40%,#1b352729 100%),linear-gradient(0deg,#172a2088,transparent 32%)}
+.resort-hero-copy{max-width:680px}
+.resort-hero .small{color:#f4dfb8}
+.resort-hero h1{font-size:clamp(65px,10vw,138px);line-height:.88;margin:24px 0;letter-spacing:-.06em}
+.resort-hero h1 em{color:#f4dfb8;font-weight:400}
+.resort-hero p{color:#fffdf1;max-width:470px;margin:0 0 28px}
+.resort-light-link{font-weight:600;border-bottom:1px solid #f4dfb8;padding-bottom:6px}
+.resort-caption{position:absolute;right:clamp(22px,5vw,84px);bottom:64px;color:#fffdf1;font-size:12px}
+.resort-trip{position:relative;display:grid;grid-template-columns:1.2fr 1fr auto;align-items:end;gap:26px;max-width:1080px;margin:-44px auto 42px;padding:24px 28px;background:#fffdf7;border:1px solid #e0ddce;border-radius:7px;box-shadow:0 12px 30px #26392b18;width:calc(100% - 36px)}
+.resort-trip strong,.resort-trip label{display:block}.resort-trip strong{font:600 clamp(20px,2.4vw,29px) Georgia,serif;margin-top:8px}.resort-trip label{font-size:12px;margin-bottom:5px}
+.resort-trip select{padding:11px 12px;width:100%;font:inherit;background:#fffdf7;border:1px solid #bfc7b7;border-radius:4px;color:var(--ink)}
+.resort-trip .btn{white-space:nowrap}
+.resort-stay{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(24px,6vw,90px);align-items:center;background:#eeeadd;padding:clamp(52px,8vw,110px) clamp(22px,7vw,110px)}
+.resort-stay-copy p{max-width:490px}
+.resort-stay-card{padding:clamp(25px,5vw,54px);color:#fffdf1;background:#233d2f;border-radius:5px;border-top:4px solid #c8ad76}
+.resort-stay-card .small{color:#f4dfb8}.resort-stay-card h3{font-size:clamp(33px,5vw,52px);margin:15px 0 5px}.resort-stay-card p{color:#e6e6d9;margin:0 0 20px}
+.resort-stay-card .btn{background:#f4dfb8;color:#22392c}
+@media(max-width:760px){.resort-header{flex-wrap:wrap;justify-content:space-between}.resort-header nav{order:3;width:100%;justify-content:flex-start}.resort-header nav a:nth-child(3){display:inline}.resort-hero{min-height:540px}.resort-hero::after{background:linear-gradient(90deg,#142a1de8,#1b352762)}.resort-trip{grid-template-columns:1fr auto;gap:14px;padding:18px}.resort-trip>div:first-child{grid-column:1/-1}.resort-stay{grid-template-columns:1fr}.resort-caption{bottom:58px}}
+@media(max-width:420px){.resort-header-cta{padding:9px 11px}.resort-trip{grid-template-columns:1fr}.resort-trip .btn{width:100%}}
